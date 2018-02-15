@@ -1,0 +1,60 @@
+/**
+ * partials/header
+ * ---
+ */
+
+
+// Header container
+header{
+  height: $header-height;
+  width: 100vw;
+  background: rgba(255,255,255,1.0);
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  & > div{
+    &:nth-of-type(1){  // this is the contact us button
+      position: absolute;
+      right: 0;
+      top: -60px;
+      background: rgba(0, 0, 0, 1.0);
+      transform: rotate(-90deg);
+      transform-origin: right bottom;
+      -ms-transform: rotate(-90deg);
+      -ms-transform-origin: right bottom;
+      -webkit-transform: rotate(-90deg);
+      -webkit-transform-origin: right bottom;
+      & > a{
+        display: block;
+        width: 250px;
+        height: 60px;
+        background: rgba(191, 40, 40, 1.0);
+        color: rgba(255,255,255,1.0);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem;
+        line-height: 60px;
+        word-spacing: 5px;
+        &:hover{
+          background: rgba(0, 0, 0, 1.0);
+        }
+      }
+    }
+
+    &:nth-of-type(2){
+      //width: $content-width;
+      //margin: nth($wrapper-margins, 1) nth($wrapper-margins, 2) nth($wrapper-margins, 3) nth($wrapper-margins, 4);
+      float:left;
+      margin:0 0 0 20vw;
+      & > a.logo{
+        color: rgba(255,255,255,0.0);
+        display: block;
+        margin: 20px 0 20px 0;
+        & > svg{
+          height: 40px;
+          fill: rgba(191, 40, 40, 1.0);
+        }
+      }
+    }
+  }
+}

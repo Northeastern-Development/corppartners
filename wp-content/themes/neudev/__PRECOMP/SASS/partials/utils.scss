@@ -1,0 +1,39 @@
+/**
+ * partials/utils
+ * ---
+ * Utils classes
+ */
+
+
+// clearfix: http://nicolasgallagher.com/micro-clearfix-hack/
+.clear {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.reset-box {
+  @include reset-box;
+}
+
+.topbutton {
+	height:50px;
+	width:50px;
+	position:fixed;
+	right:15px;
+	bottom:15px;
+	z-index:1;
+	box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.4);
+	background:rgba(191, 40, 40, 1.0) url(../_img/back_to_top.svg) no-repeat center 50%;
+	background-repeat:no-repeat;
+	display:none;
+	&:hover {
+		background:rgba(0,0,0,1) url(../_img/back_to_top.svg) no-repeat center 50%;
+	}
+}

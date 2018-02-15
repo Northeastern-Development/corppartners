@@ -1,0 +1,552 @@
+.drivebusiness{
+  & > a{
+    display: block;
+    width: 230px;
+    text-align: center;
+    background: rgba(191, 40, 40, 1.0);
+    color: rgba(255,255,255,1.0);
+    border-radius: 5px;
+    padding: 5px 0 0 0;
+    line-height: 6rem;
+    text-transform: uppercase;
+    margin: ($gutter * 3) 0 0 0;
+    &:hover{
+      background: rgba(0, 0, 0, 1.0);
+    }
+  }
+  & > p{
+    margin: $gutter 0 0 0;
+    color: rgba(191, 40, 40, 1.0);
+    & > a{
+      color: rgba(191, 40, 40, 1.0);
+      text-decoration: underline;
+      &:hover{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 1.0);
+      }
+    }
+  }
+}
+
+
+  a.nu__button{
+    display: block;
+    width: 230px;
+    text-align: center;
+    background: rgba(191, 40, 40, 1.0);
+    color: rgba(255,255,255,1.0);
+    border-radius: 5px;
+    padding: 5px 0 0 0;
+    line-height: 6rem;
+    text-transform: uppercase;
+    margin: ($gutter * 3) 0 0 0;
+    text-decoration:none;
+    &:hover{
+      background: rgba(0, 0, 0, 1.0);
+    }
+  }
+
+  div.wpforms-container-full .wpforms-form button[type="submit"] {
+    background: rgba(191, 40, 40, 1.0);
+    color: rgba(255,255,255,1.0);
+    border-radius: 5px;
+    text-transform: uppercase;
+    //width: 230px;
+    text-align: center;
+    padding: 5px 10px 0 10px;
+    line-height: 6rem;
+    text-transform: uppercase;
+    margin: ($gutter * 1) 0 0 0;
+    &:hover {
+      background: rgba(0, 0, 0, 1.0);
+    }
+  }
+
+  body.contact-us {
+    header > div:nth-of-type(1) > a {
+      display:none;
+    }
+  }
+
+
+
+
+
+section{
+  width: 100vw;
+  min-height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  & > article{
+    width: $content-width;
+    margin: nth($wrapper-margins, 1) nth($wrapper-margins, 2) nth($wrapper-margins, 3) nth($wrapper-margins, 4);
+    padding: ($gutter * 5) 0 ($gutter * 5) 0;
+  }
+
+}
+
+
+
+// body.home{
+//   #section-1{
+//     background-image: url('../_img/hero.jpg');
+//     height: 550px;
+//   }
+// }
+
+
+#section-1{
+  margin-top: $header-height;
+  //background-image: url('../_img/hero.jpg');
+  height: 550px;
+  & > article{
+    div{
+      width: 40%;
+    }
+  }
+}
+
+
+#section-2{
+  text-align: center;
+}
+
+
+#section-3{
+  background: #efefef;
+  text-align: center;
+  & ul{
+    display: flex;
+    margin: 50px 0 0 0;
+    & > li{
+      flex-grow: 1;
+      flex-basis: 0;
+      margin: 0 ($gutter * 2) 0 0;
+      text-align: center;
+      & > svg {
+        height:90px;
+
+      }
+      & > h3{
+        text-transform: uppercase;
+        color: rgba(191, 40, 40, 1.0);
+        // margin: 0 0 $gutter 0;
+      }
+      &:last-child{
+        margin: 0 0 0 0;
+
+      }
+    }
+  }
+}
+
+
+#section-4,
+#section-6,
+#section-8{
+  & > article{
+    display: flex;
+    & div{
+      flex-grow: 1;
+      flex-basis: 0;
+      margin: 0 ($gutter * 5) 0 0;
+      & > aside{
+        text-align: center;
+        & > img{
+          width: 100%;
+        }
+        & > span{
+          font-size: 4rem;
+          line-height: 6rem;
+          color: rgba(191, 40, 40, 1.0);
+        }
+        & > p{
+          width: 50%;
+          margin: 0 25% 0 25%;
+        }
+      }
+      &.right{
+        order: 2;
+        margin: 0 0 0 0;
+      }
+      &.left{
+        order: 1;
+      }
+    }
+  }
+}
+
+
+#section-5,
+#section-7,
+#section-9{
+  background: #efefef;
+  & > article{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > svg{
+      margin: 0 ($gutter * 3) 0 0;
+      height: 100%;
+    }
+    & > img {
+      margin: 0 ($gutter * 3) 0 0;
+      height: 100%;
+    }
+  }
+
+  & div{
+    flex-grow: 2;
+  }
+}
+
+#section-5 {
+  & > article {
+    & > img {
+      width:25%;
+    }
+    & > svg {
+      //height:78px;
+      width:405px;
+    }
+  }
+}
+
+#section-7 {
+  & > article {
+
+    & > svg {
+      height:65px;
+    }
+  }
+}
+
+#section-9 {
+  & > article {
+
+    & > svg {
+      height:64px;
+    }
+    & img {
+      max-width:244px;
+      //width:100%;
+    }
+  }
+}
+
+
+#section-10{
+  text-align: center;
+  & ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:50px;
+    & > li{
+      flex-grow: 1;
+      flex-basis: 25%;
+      min-height: 150px;
+      //background: #efefef;
+      margin: 0 $gutter $gutter 0;
+      // & > img {
+      //   max-width:280px;
+      // }
+      &:nth-child(3n+3){
+        margin: 0 0 $gutter 0;
+      }
+      &:nth-child(1){
+        & img {
+          //height:77px;
+        }
+      }
+      &:nth-child(2){
+        & img {
+          height:139px;
+        }
+      }
+      &:nth-child(3){
+        & img {
+          //height:76px;
+        }
+      }
+      &:nth-child(4){
+        & img {
+          height:58px;
+        }
+      }
+      &:nth-child(5){
+        & img {
+          height:76px;
+        }
+      }
+    }
+  }
+}
+
+
+#section-11{
+  background: #efefef;
+  & > article{
+    width: 20vw;
+    margin: 0 40vw 0 40vw;
+    text-align: center;
+    & a{
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      background: rgba(191, 40, 40, 1.0);
+      border-radius: 50%;
+      color: rgba(255,255,255,1.0);
+      margin: 0 ($gutter * 2) 0 0;
+      &:hover {
+        background:rgba(0, 0, 0, 1.0);
+      }
+      &:last-child{
+        margin: 0 0 0 0;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1280px){
+
+  #section-1{
+    & > article{
+      div{
+        width: 60%;
+      }
+    }
+  }
+
+  #section-4,
+  #section-6,
+  #section-8{
+    & > article{
+      & div{
+        & > aside{
+          & > p{
+            width: 80%;
+            margin: 0 10% 0 10%;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: 1080px){
+
+  h2{
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+  }
+
+
+  h3{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .drivebusiness{
+    text-align: center;
+    & > a{
+      width: 40%;
+      margin: ($gutter * 3) 30% 0 30%;
+    }
+  }
+
+  #section-1{
+    & > article{
+      div{
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  #section-4,
+  #section-6,
+  #section-8{
+    & > article{
+      display: block;
+      & div{
+        margin: 0 0 0 0;
+        & > aside{
+          order: 1;
+          margin: 0 0 ($gutter * 5) 0;
+        }
+      }
+    }
+  }
+
+  #section-10{
+    // text-align: center;
+    & ul{
+      & > li{
+        flex-basis: 33%;
+        &:nth-child(3n+3){
+          margin: 0 $gutter $gutter 0;
+        }
+        &:nth-child(2n+2){
+          margin: 0 0 $gutter 0;
+        }
+      }
+    }
+  }
+
+  #section-11{
+    & > article{
+      width: 40vw;
+      margin: 0 30vw 0 30vw;
+    }
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 980px){
+
+  .drivebusiness{
+    & > a{
+      width: 70%;
+      margin: ($gutter * 3) 15% 0 15%;
+    }
+  }
+
+  #section-3{
+    & ul{
+      display: block;
+      & > li{
+        width: 80%;
+        margin: 0 0 ($gutter * 5) 10%;
+        &:last-child{
+          margin: 0 0 0 10%;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 780px){
+
+  section{
+    min-height: 100px;
+    & > article{
+      width: 80vw;
+      margin: nth($wrapper-margins, 1) 10vw nth($wrapper-margins, 3) 10vw;
+    }
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+  header {
+    & > div:nth-of-type(1) {
+      display:none;
+    }
+    & > div:nth-of-type(2) {
+      margin-left:10vw;
+      & > a.logo {
+        & svg {
+          max-width:250px;
+        }
+      }
+    }
+
+
+  }
+
+
+
+  #section-1 > article div {
+    margin-top:75px;
+  }
+
+
+
+  .drivebusiness{
+    & > a{
+      width: 100%;
+      margin: ($gutter * 3) 0 ($gutter * 3) 0;
+    }
+  }
+
+  #section-5 > article, #section-7 > article, #section-9 > article  {
+    display:block;
+    & svg {
+      display:block;
+      margin:0 auto;
+      margin-bottom:($gutter * 3);
+    }
+    & img, svg {
+      display:block;
+      margin:0 auto;
+      margin-bottom:($gutter * 3);
+      max-width:250px;
+    }
+  }
+
+  #section-10{
+    & ul{
+
+      & > li{
+        min-height:inherit;
+        flex-basis: 100%;
+        & > img {
+          max-width:250px;
+        }
+        margin: 0 0 ($gutter * 2) 0;
+        &:nth-child(3n+3){
+          margin: 0 0 ($gutter * 2) 0;
+        }
+        &:nth-child(2n+2){
+          margin: 0 0 ($gutter * 2) 0;
+        }
+      }
+    }
+  }
+
+  #section-11{
+    & > article{
+      width: 60vw;
+      margin: 0 20vw 0 20vw;
+    }
+  }
+
+}
+
+.wpforms-confirmation-container-full {
+  border:none !important;
+  background:none !important;
+}

@@ -1,0 +1,51 @@
+/**
+ * modules/variables
+ * ---
+ */
+
+
+/**
+ * Typography
+ */
+
+$font-family-base: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif, FontAwesome;
+$font-size-base: 140%;
+$line-height-base: 1.5;
+
+
+/**
+ * Colors
+ */
+
+$text-color: #444;
+$body-bg: #fff;
+$selection-bg: #04A4CC;
+
+$black: rgba(0, 0, 0, 1.0);
+$nured: rgba(204, 0, 0, 1.0);
+$white: rgba(255, 255, 255, 1.0);
+
+
+/**
+ * Grid
+ */
+
+//$wrapper-width: 128rem; //1280px
+
+
+$padding-horizontal-base: 5px;
+$padding-vertical-base: 5px;
+$margin-horizontal-base: 5px;
+$margin-vertical-base: 5px;
+$margin-horizontal-large: 15px;
+$margin-vertical-large: 15px;
+
+//$margin-sides: 15vw;
+
+//$headerHeight: 100px;
+
+
+$content-width: 60vw;
+$wrapper-margins: 0 20vw 0 20vw;
+$header-height: 80px;
+$gutter: 1vw;

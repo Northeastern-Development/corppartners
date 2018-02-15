@@ -1,0 +1,42 @@
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+
+ /* ***********************************************************
+## THEME INFO - EDIT THIS FOR EACH PROJECT
+ *********************************************************** */
+ @import "modules/theme_info";
+
+ /* ***********************************************************
+ ## THEME INFO - DON'T TOUCH THIS
+ *********************************************************** */
+/*!
+ Theme Name: #{ $theme_name }
+ Theme URI: #{ $theme_uri }
+ Description: #{ $theme_description }
+ Version: #{ $theme_version }
+ Author: #{ $theme_author }
+ Author URI: #{ $theme_author_uri }
+ License: #{ $theme_license }
+ License URI: License.txt
+ */
+// Modules
+@import "modules/normalize";
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/fonts";
+
+// Partials
+@import "partials/reset";
+@import "partials/wordpress";
+@import "partials/utils";
+@import "partials/wrapper";
+@import "partials/header";
+@import "partials/nav";
+@import "pages/common";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/queries";
+@import "partials/print";

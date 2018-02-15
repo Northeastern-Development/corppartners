@@ -1,0 +1,1 @@
+!function(t,$,o){"use strict";$(function(){var t=1e3,o=1500,n=500;$(window).scroll(function(){$(this).scrollTop()<1e3?$(".topbutton").fadeOut(500):$(".topbutton").fadeIn(500)}),$(".topbutton").on("touchend click",function(){return $("html, body").animate({scrollTop:0},1500),!1})})}(this,jQuery);

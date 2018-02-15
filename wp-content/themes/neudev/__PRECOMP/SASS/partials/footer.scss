@@ -1,0 +1,74 @@
+/**
+ * partials/footer
+ * ---
+ */
+.wrapper {
+
+}
+
+footer {
+  -moz-box-flex: 0;
+  background: #5a5a5a none repeat scroll 0 0;
+   margin: auto auto 0 auto;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  & .wrapper {
+    width: $content-width;
+    margin: nth($wrapper-margins, 1) nth($wrapper-margins, 2) nth($wrapper-margins, 3) nth($wrapper-margins, 4);
+    & a {
+      float: left;
+      //margin-right: 20px;
+      & svg {
+        height: 25px;
+        & path {
+          fill: $white;
+        }
+        &:hover {
+          & path {
+            fill:rgba(222, 219, 212, 1.0);
+          }
+        }
+      }
+    }
+    & div {
+      color: $white;
+      height: auto;
+      line-height: 1.4em;
+      margin: 0;
+      padding: 0;
+      float:right;
+      & > ul {
+        float:right;
+        font-size: 1.2em;
+        list-style-type: none;
+        margin: 0 0 10px;
+        padding: 0;
+        & li {
+          display:inline-block;
+          margin-right:20px;
+
+          & a {
+            color: $white;
+            &:hover {
+              text-decoration:none;
+              color:rgba(222, 219, 212, 1.0);
+            }
+          }
+        }
+      }
+      & p {
+        //margin-left:20px;
+        & a {
+          color: $white;
+          &:hover {
+            text-decoration:none;
+            color:rgba(222, 219, 212, 1.0);
+          }
+        }
+      }
+    }
+  }
+}
